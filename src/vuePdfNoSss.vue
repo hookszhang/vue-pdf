@@ -11,7 +11,6 @@
 		// 	var PdfjsWorker = require('worker-loader!pdfjs-dist/build/pdf.worker.js');
 		// 	PDFJS.GlobalWorkerOptions.workerPort = new PdfjsWorker();
 		// }
-		PDFJS.PDFJS.disableWorker = true;
 		var component = componentFactory(pdfjsWrapper(PDFJS));
 	} else {
 
